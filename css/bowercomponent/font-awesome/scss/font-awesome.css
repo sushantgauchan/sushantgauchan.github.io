@@ -1,0 +1,64 @@
+/*
+Error: Invalid CSS after "...4▀¿º┴Eoî╙┌"$µd╡": expected selector or at-rule, was "ê≡Ö{╒á÷∙=}.^..."
+        on line 580 of _variables.scss
+        from line 6 of font-awesome.scss
+
+575: $fa-var-scribd: "\f28a";
+576: $fa-var-search: "\f002";
+577: $fa-var-search-minus: "\f010";
+578: $fa-var-search-plus: "\f0N{ï£ÿûQ0├½ε�│┐╩Φ√±|╗₧
+579: ù║L≤è:∞⌡r8┌md╥Tó@åO▌µx╡H÷Iy	96m)a2W¬A@╧Åδ█≡ñ╗─î¼Ü■p┐¢╧╘½αÇ╖▀╔gΘq0█½ΣÇ┤ƒ╚ùΘQq¢╛Å░¢╦╘¿áüG▀ìg┌Ud└╘»αâ≈▐9g¡Bp╬[δä░£ï╓í5G¿═AjOÉ╦╙Φó1FkìÜs╘┌ ñτ─╡lê╥buX±{╝▄Ä&Ñ4äΦ£▒Vü8ƒ¡W┬AnOôï╥óuFX═j|╨▐#τª5E(╠ßj7ÉΘS±;╛lÅÆ╥tóXåE]
+580: ╞z-Γv6Y)!<τ«5C¿╬k┐ÉÅ╙█Γ$╢dëÖ0ò+╨αú≈╞9m-brVZA╧╝½╬�½┐└Å∩█≤Σ║4îΦÜ1TδÇ░ƒ╦╫ΦíqG¢ìTÜ@ö╧╨½π└╢/╔#Θ&1%+ñαä╖▄ëf50Φδ±p╗¢╠ö¬Ç≤▀·'ⁿσ~4▀¿º┴Eoî╙┌"$µd╡ê≡Ö{╒á÷∙=}.^cçûQ6C⌐;┐¼Å┬εt│ÿèX≡┼{∞▄▓&
+581: e8╘φ`▓W╩Ah╧æk╙Éó╞r-
+
+Backtrace:
+_variables.scss:580
+font-awesome.scss:6
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:42:in `parse'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:414:in `_to_tree'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:321:in `to_tree'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin.rb:82:in `update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.6/bin/scss:13:in `<top (required)>'
+C:/Ruby23/bin/scss:22:in `load'
+C:/Ruby23/bin/scss:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...4▀¿º┴Eoî╙┌\"$µd╡\": expected selector or at-rule, was \"ê≡Ö{╒á÷∙=}.^...\"\A         on line 580 of _variables.scss\A         from line 6 of font-awesome.scss\A \A 575: $fa-var-scribd: \"\f28a\";\A 576: $fa-var-search: \"\f002\";\A 577: $fa-var-search-minus: \"\f010\";\A 578: $fa-var-search-plus: \"\f0N{ï£ÿûQ0├½ε�│┐╩Φ√±|╗₧\A 579: ù║L≤è:∞⌡r8┌md╥Tó@åO▌µx╡H÷Iy	96m)a2W¬A@╧Åδ█≡ñ╗─î¼Ü■p┐¢╧╘½αÇ╖▀╔gΘq0█½ΣÇ┤ƒ╚ùΘQq¢╛Å░¢╦╘¿áüG▀ìg┌Ud└╘»αâ≈▐9g¡Bp╬[δä░£ï╓í5G¿═AjOÉ╦╙Φó1FkìÜs╘┌ ñτ─╡lê╥buX±{╝▄Ä&Ñ4äΦ£▒Vü8ƒ¡W┬AnOôï╥óuFX═j|╨▐#τª5E(╠ßj7ÉΘS±;╛lÅÆ╥tóXåE]\A 580: ╞z-Γv6Y)!<τ«5C¿╬k┐ÉÅ╙█Γ$╢dëÖ0ò+╨αú≈╞9m-brVZA╧╝½╬�½┐└Å∩█≤Σ║4îΦÜ1TδÇ░ƒ╦╫ΦíqG¢ìTÜ@ö╧╨½π└╢/╔#Θ&1%+ñαä╖▄ëf50Φδ±p╗¢╠ö¬Ç≤▀·'ⁿσ~4▀¿º┴Eoî╙┌\"$µd╡ê≡Ö{╒á÷∙=}.^cçûQ6C⌐;┐¼Å┬εt│ÿèX≡┼{∞▄▓&\A 581: e8╘φ`▓W╩Ah╧æk╙Éó╞r-"; }

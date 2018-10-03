@@ -1,0 +1,188 @@
+/*
+* Created by Sushant Gauchan
+* Date: 6/9/2018
+* Time: 7:20 AM
+*/
+/*-------------------------------------- Fonts Starts -------------------------------------*/
+/*--------------------------------------- Fonts Ends --------------------------------------*/
+/*------------------------------------- Colors Starts -------------------------------------*/
+/*-------------------------------------- Colors Ends --------------------------------------*/
+.ex-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row; }
+
+.ex-flex-wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start; }
+
+.ex-vertical {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.ex-transition {
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  transition: all .6s ease; }
+
+.ex-transition-large {
+  -webkit-transition: all 1.6s ease;
+  -moz-transition: all 1.6s ease;
+  -ms-transition: all 1.6s ease;
+  -o-transition: all 1.6s ease;
+  transition: all 1.6s ease; }
+
+.ex-transition-small {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }
+
+html {
+  height: 100%;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #585757;
+  background-color: #f4f7f6;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+a:link, a:visited {
+  text-decoration: none; }
+
+a:focus {
+  outline: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  color: #202121;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0;
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  font-size: 50px; }
+
+h2 {
+  font-size: 26px; }
+
+h3 {
+  font-size: 20px; }
+
+h5 {
+  font-size: 16px; }
+
+p {
+  margin-bottom: 18px; }
+  p:last-of-type {
+    margin-bottom: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style: none; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+  overflow: hidden; }
+
+.slick-slider .slick-slide {
+  outline: none; }
+
+.custom-container {
+  max-width: 1920px;
+  padding: 0px 100px;
+  margin: auto; }
+  .custom-container.medium-width-container {
+    max-width: 1800px; }
+  .custom-container.small-width-layout {
+    max-width: 1400px; }
+  .custom-container.smaller-width-layout {
+    max-width: 1000px; }
+  .custom-container.add-padding-top {
+    padding-top: 80px; }
+  .custom-container.full-width {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0; }
+  .custom-container.remove-top-bottom-padding {
+    padding-top: 0;
+    padding-bottom: 0; }
+  .custom-container.remove-top-padding {
+    padding-top: 0; }
+  .custom-container.remove-bottom-padding {
+    padding-bottom: 0; }
+
+section .custom-container,
+.common-banner-section .custom-container {
+  padding-bottom: 80px; }
+
+.section-title {
+  margin-bottom: 40px;
+  text-align: center; }
+  .section-title h2 {
+    font-weight: 900; }
+  .section-title h3 {
+    font-weight: 600; }
+  .section-title p {
+    margin-top: 10px; }
+
+.pr-btn {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 100px;
+  line-height: 50px;
+  padding: 0 30px;
+  background-color: #212529;
+  border: 1px solid #212529;
+  text-align: center;
+  outline: none; }
+  .pr-btn.square-border {
+    border-radius: 0; }
+  .pr-btn.round-red {
+    background-color: #e75146;
+    border-color: #e75146; }
+  .pr-btn:hover {
+    color: #fff; }
+
+/*# sourceMappingURL=global.css.map */

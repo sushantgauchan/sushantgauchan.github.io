@@ -1,0 +1,79 @@
+
+/*-------------------------------------- Fonts Starts -------------------------------------*/
+$font-type-1: 'Poppins', sans-serif;
+$font-type-2: "Montserrat", sans-serif;
+$font-type-3: 'Roboto', sans-serif;
+
+/*--------------------------------------- Fonts Ends --------------------------------------*/
+
+
+/*------------------------------------- Colors Starts -------------------------------------*/
+$primary-color: #e75146;
+$primary-color-dark: #c13835;
+
+
+$grey-color: #f4f7f6;
+$grey-color-font: #202121;
+$grey-color-font-light: #585757;
+$grey-color-line: #dedede;
+$grey-color-product: #e6eaea;
+$grey-color-table: #dedede;
+$grey-color-table-bold: #dfdcde;
+
+
+$footer-white-1: #cecece;
+$footer-white-2: #a5a5a5;
+$footer-white-3: #f4f4f4;
+$footer-white-3-hover: #f4f4f4;
+$footer-line: #2c2c2c;
+/*-------------------------------------- Colors Ends --------------------------------------*/
+
+
+
+.ex-flex{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.ex-flex-wrap{
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+.ex-vertical{
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.ex-transition{
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  transition: all .6s ease;
+}
+.ex-transition-large{
+  -webkit-transition: all 1.6s ease;
+  -moz-transition: all 1.6s ease;
+  -ms-transition: all 1.6s ease;
+  -o-transition: all 1.6s ease;
+  transition: all 1.6s ease;
+}
+.ex-transition-small{
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}

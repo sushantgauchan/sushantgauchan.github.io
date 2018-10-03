@@ -1,0 +1,177 @@
+/*
+* Created by Sushant Gauchan
+* Date: 6/9/2018
+* Time: 7:20 AM
+*/
+
+@import "components/fonts_and_colors";
+
+
+
+
+html{
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body{
+  height: 100%;
+  font-family: $font-type-1;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+
+  color: $grey-color-font-light;
+  background-color: $grey-color;
+  -webkit-font-smoothing: antialiased;
+
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+a:link, a:visited{
+  text-decoration: none
+}
+a:focus{
+  outline: none
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $font-type-1;
+  color: $grey-color-font;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0;
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 26px;
+}
+h3{
+  font-size: 20px;
+}
+
+h5{
+  font-size: 16px;
+}
+
+p{
+  margin-bottom: 18px;
+  &:last-of-type{
+    margin-bottom: 0;
+  }
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  li{
+    list-style: none;
+  }
+}
+
+a{
+  text-decoration: none;
+  &:hover, &:focus{
+    text-decoration: none
+  }
+}
+
+#wrapper{
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slick-slider{
+  .slick-slide{
+    outline: none;
+  }
+}
+
+.custom-container{
+  max-width: 1920px;
+  padding:0px 100px;
+  margin: auto;
+  &.medium-width-container{
+    max-width: 1800px;
+  }
+  &.small-width-layout{
+    max-width: 1400px;
+  }
+  &.smaller-width-layout{
+    max-width: 1000px;
+  }
+  &.add-padding-top{
+    padding-top: 80px;
+  }
+  &.full-width{
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  &.remove-top-bottom-padding{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  &.remove-top-padding{
+    padding-top: 0;
+  }
+  &.remove-bottom-padding{
+    padding-bottom: 0;
+  }
+}
+section .custom-container,
+.common-banner-section .custom-container{
+    padding-bottom: 80px;
+}
+.section-title{
+  margin-bottom: 40px;
+  text-align: center;
+  h2{
+    font-weight: 900;
+  }
+  h3{
+    font-weight: 600;
+  }
+  p{
+    margin-top: 10px;
+  }
+}
+
+
+.pr-btn{
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 100px;
+  line-height: 50px;
+  padding: 0 30px;
+  background-color: #212529;
+  border: 1px solid #212529;
+  text-align: center;
+  outline: none;
+  &.square-border{
+    border-radius: 0;
+  }
+  &.round-red{
+    background-color: $primary-color;
+    border-color: $primary-color;
+  }
+  &:hover{
+    color: #fff;
+  }
+}
